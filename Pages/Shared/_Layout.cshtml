@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - Puzzle.UI</title>
+    <link rel="stylesheet" href="~/3rd-party/css/normalize.css">
+    <link rel="stylesheet" href="~/css/main.min.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/3rd-party/css/fonts.css" />
+    <link rel="stylesheet" href="~/3rd-party/css/font-awesome.min.css" />
+</head>
+<body>
+    <main class="puzzle-app">
+        <aside class="puzzle-sidebar">
+            <section>
+                <header><h4>Page Tree</h4><button class="fa fa-plus-circle"></button></header>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-folder"></i>
+                            Blog
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="#">My new Website!!!</a>
+                            </li>
+                            <li>
+                                <a href="#">My new Website!!!</a>
+                            </li>
+                            <li>
+                                <a href="#">My new Website!!!</a>
+                            </li>
+                            <li>
+                                <a href="#">My new Website!!!</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-folder"></i>
+                            Pictures
+                        </a>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-folder"></i>
+                                    Denmark
+                                </a>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-file"></i>
+                                            2021-02-06-0001
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-file"></i>
+                                            2021-02-06-0002
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-file"></i>
+                                            2021-02-06-0003
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-file"></i>
+                                            2021-02-06-0004
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <i class="fa fa-folder"></i>
+                                    Norway
+                                </a>
+                                <ul>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-file"></i>
+                                            2021-03-06-0001
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-file"></i>
+                                            2021-03-06-0002
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-file"></i>
+                                            2021-03-06-0003
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-file"></i>
+                                            2021-03-06-0004
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-file"></i>
+                                            2021-03-06-00052021-03-06-0005
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <i class="fa fa-file"></i>
+                                            2021-03-06-0006
+                                            2021-03-06-0006
+                                        </a>
+                                    </li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-file"></i>
+                            Privacy
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa fa-file"></i>
+                            Index
+                        </a>
+                    </li>
+                </ul>
+            </section>
+        </aside>
+        @RenderBody()
+    </main>
+
+
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
